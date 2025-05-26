@@ -1,6 +1,6 @@
 # Hivemind
 
-Welcome to **hivemind**, my modular mess of self-prompting LLMs, plugins, and likely uncommented code hell.
+Welcome to **Hivemind**, my modular mess of self-prompting LLMs, plugins, and likely uncommented code hell.
 
 This program is designed to think out loud, talk to multiple platforms (Discord, Twitch, or whatever you want really), and generally act like a person to some extent.
 
