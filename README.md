@@ -2,7 +2,7 @@
 
 Welcome to **Hivemind**, my modular mess of self-prompting LLMs, plugins, and likely uncommented code hell.
 
-This program is designed to think out loud, talk to multiple platforms (Discord, Twitch, or whatever you want, really), and generally act like a person to some extent.
+This program is designed to think out loud, talk to multiple platforms (Discord, Twitch, or whatever you want, really), and generally act like a person to some extent. It is the direct successor to [Botulism](https://github.com/TheZoidMaster/Botulism)
 
 ---
 
@@ -30,7 +30,7 @@ Hivemind is a **plugin-driven AI loop** with:
 
 ---
 
-## Why should you use this over [Botulism](https://github.com/TheZoidMaster/Botulism)?
+## Why should you use this over Botulism?
 
 -   You want a bot that actually feels like it's thinking instead of just spitting random garbage
 -   You want to hook it into multiple chats and give it the ability to cross-post about something that happened elsewhere
