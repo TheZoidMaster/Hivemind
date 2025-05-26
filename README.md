@@ -2,7 +2,7 @@
 
 Welcome to **Hivemind**, my modular mess of self-prompting LLMs, plugins, and likely uncommented code hell.
 
-This program is designed to think out loud, talk to multiple platforms (Discord, Twitch, or whatever you want really), and generally act like a person to some extent.
+This program is designed to think out loud, talk to multiple platforms (Discord, Twitch, or whatever you want, really), and generally act like a person to some extent.
 
 ---
 
@@ -12,7 +12,8 @@ Hivemind is a **plugin-driven AI loop** with:
 
 -   Multiple input and output plugins (think Discord reader, Twitch chatter, whatever)
 -   A core "brain" that plans and decides what to say or do next
--   Filters that give the AI personality, mood swings, and generally makes it do what you want
+-   Logic modules that help manage emotions and time-based events
+-   Filters that give the AI personality, mood swings, and generally make it do what you want
 -   Short-term memory so it can yap about that mean Twitch comment on Discord
 -   Modular tools and executors so it can actually do stuff outside its internal loop
 
@@ -22,9 +23,10 @@ Hivemind is a **plugin-driven AI loop** with:
 
 1. **Input plugins** read data from external sources and dump it into shared short-term memory
 2. **Core plugins** feed on that data, run emotional logic, and make plans
-3. **Filters** polish or rewrite what the AI wants to say or do
-4. **Output plugins** send messages or perform actions based on the plans
-5. Rinse and repeat
+3. **logic plugins** run background activities like mood swings, boredom, time-based actions, or other side effects  
+4. **Filters** polish or rewrite what the AI wants to say or do
+5. **Output plugins** send messages or perform actions based on the plans
+6. Rinse and repeat
 
 ---
 
@@ -56,7 +58,7 @@ Hivemind is a **plugin-driven AI loop** with:
 -   `plugins/` – The AI's limbs and nerves (input, output, filters, logic, tools)
 -   `utils/` – Helper stuff like LLM wrappers
 -   `config.yaml` – Configure the base AI and plugins here
--   `run.py` – The primary entrypoint
+-   `run.py` – The primary entry point
 
 ---
 
